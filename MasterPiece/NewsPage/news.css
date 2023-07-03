@@ -1,0 +1,147 @@
+body {
+  max-width: 1000px;
+  min-width: 300px;
+  margin-bottom: 30px;
+  margin: auto;
+  padding: 20px;
+}
+
+img.minus {
+  width: 29px;
+  height: 20px;
+  margin: 4px;
+  display: inline-block;
+}
+
+h1 {
+  margin-bottom: 35px;
+  color: #5f0d02;
+  padding: 10px;
+}
+
+img.pequena {
+  max-width: 1000px;
+  display: block;
+  margin: auto;
+}
+
+img.menor {
+  max-width: 300px;
+  margin: auto;
+  margin-right: 15px;
+  margin-bottom: 20px;
+}
+
+img.menor2 {
+  max-width: 300px;
+  margin: auto;
+  margin-left: 15px;
+  margin-bottom: 20px;
+}
+
+img.pitico {
+  max-width: 100px;
+  display: block;
+  margin: auto;
+}
+
+img.pit {
+  max-width: 30px;
+  display: block;
+  margin-bottom: 30px;
+}
+
+img {
+  width: 100%;
+}
+
+.container12 {
+  display: flex;
+  align-items: center;
+}
+
+a {
+  color: #0f0f10d3;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+font-face {
+  font-family: "BreeSerif";
+  src: url("fontes/BreeSerif-Regular.ttf") format("truetype");
+  font-style: normal;
+}
+
+:root {
+  --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+  --fonte-destaque: "Bree Serif", serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+body {
+  background: radial-gradient(#cfcf6e, 20%, #dfab1ecb);
+  box-sizing: border-box;
+  font-family: var(--fonte-destaque);
+}
+
+body a:hover {
+  text-decoration: underline;
+  color: #5f0d02;
+}
+
+h1 {
+  font-family: var(--fonte-destaque);
+  text-align: center;
+  box-shadow: 20px 10px 20px 10px rgba(0, 0, 0, 0.374);
+}
+
+h2 {
+  font-family: var(--fonte-destaque);
+}
+
+.container {
+  height: 200px;
+  width: 1140px;
+  background-color: #d48942;
+}
+
+h3 {
+  font-family: var(--fonte-destaque);
+}
+
+p {
+  font-family: var(--fonte-destaque);
+}
+
+nav {
+  background-color: #b77e33c1;
+  padding: 12px;
+  box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.527);
+  text-align: right;
+  font-family: var(--fonte-destaque);
+  font-size: 17px;
+}
+
+nav > a {
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition-duration: 0.5s;
+}
+
+nav > a:hover {
+  color: #5f0d02;
+}
+
+footer {
+  min-height: 100px;
+  background: #865c26ef;
+  width: 100%;
+  display: flex;
+}
