@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+body {
+  background: radial-gradient(#cfcf6e, 20%, #dfab1ecb);
+  justify-content: center;
+  display: flex;
+}
+video {
+  width: 100vw;
+  height: 100vh;
+}
+.minus {
+  position: fixed;
+  width: 50px;
+}
